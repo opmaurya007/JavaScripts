@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="/action.js">
+        <h2>Registration Form</h2>
+        
+        <input type="text" placeholder="user name">
+        <br>
+        <br>
+        <input type="password" placeholder="enter password">
+        <br><br>
+      <label for="101">  
+        <input type="radio" value="class XI" name="class" id="101">class XI</label>
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">class XII</label>
+        <br>
+        Select Subject
+        <br>
+            <label for="math">
+                <input type="checkbox" value="math" name="subject" id="201">math
+            </label><br>
+            <label for="physics">
+                <input type="checkbox" value="physics" name="subject" id="202">physics
+            </label><br>
+            <label for="chemistry">
+                <input type="checkbox" value="chemistry" name="subject" id="203">chemistry
+            </label><br>
+            <label for="java">
+                <input type="checkbox" value="java" name="subject" id="204">java
+            </label><br>
+            Select City
+            <select name="city" id="" aria-placeholder="select city">
+                <option value="">select City</option>
+                <option value="Pune">Pune</option>
+                <option value="Delhi">Delhi</option>
+
+                <option value="Mumbai">Mumbai</option>
+                <option value="Hydrabad">Hydrabad</option>
+
+            </select>
+            <br><br>
+            <textarea name="feedback" id="101" cols="30" rows="3" placeholder="please give your feedback"></textarea>   
+            <br><br>
+            <input type="submit" value="submit">  
+    </form>
+</body>
+</html>
